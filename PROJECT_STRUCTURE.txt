@@ -1,0 +1,93 @@
+Portfolio Website - Complete File Structure
+============================================
+
+portfolio_website/
+│
+├── 📱 App Directory (Next.js 14 App Router)
+│   ├── layout.tsx              # Root layout with metadata
+│   ├── page.tsx                # Main homepage (imports all components)
+│   └── globals.css             # Global styles & Tailwind directives
+│
+├── 🎨 Components (React + TypeScript)
+│   ├── Navbar.tsx              # Sticky nav with mobile menu
+│   ├── Hero.tsx                # Hero section with name & social links
+│   ├── About.tsx               # Skills & expertise cards
+│   ├── Experience.tsx          # Work history timeline
+│   ├── Projects.tsx            # Project showcase grid
+│   ├── Research.tsx            # Publications & achievements
+│   ├── Contact.tsx             # Contact form & info
+│   └── Footer.tsx              # Footer with copyright
+│
+├── 📁 Public Directory
+│   └── .gitkeep                # (Add your resume.pdf here)
+│
+├── ⚙️ Configuration Files
+│   ├── package.json            # Dependencies & scripts
+│   ├── tsconfig.json           # TypeScript config
+│   ├── tailwind.config.ts      # Tailwind customization
+│   ├── postcss.config.mjs      # PostCSS config
+│   ├── next.config.mjs         # Next.js config
+│   ├── .eslintrc.json          # ESLint rules
+│   ├── .gitignore              # Git ignore patterns
+│   └── .env.example            # Environment variables template
+│
+└── 📚 Documentation
+    ├── README.md               # Complete project documentation
+    ├── DEPLOYMENT.md           # Deployment guide (Vercel, Netlify, etc.)
+    ├── CUSTOMIZATION_GUIDE.md  # Step-by-step customization
+    ├── PROJECT_SUMMARY.md      # Project overview
+    └── PROJECT_STRUCTURE.txt   # This file
+
+Tech Stack
+==========
+Framework:    Next.js 14 (App Router)
+Language:     TypeScript
+Styling:      Tailwind CSS
+Animations:   Framer Motion
+Icons:        Lucide React
+UI Library:   React 18
+
+Key Features
+============
+✅ Fully responsive (mobile, tablet, desktop)
+✅ Dark mode support (auto-detects system preference)
+✅ Smooth animations & transitions
+✅ SEO optimized with meta tags
+✅ Interactive components with hover effects
+✅ Production-ready & deployment-ready
+✅ Clean, maintainable code structure
+✅ Type-safe with TypeScript
+
+Sections Included
+=================
+1. Navigation Bar (sticky, with mobile menu)
+2. Hero/Home (name, title, social links)
+3. About (skills & expertise)
+4. Experience (work history)
+5. Projects (portfolio showcase)
+6. Research (publications & awards)
+7. Contact (form & contact info)
+8. Footer (copyright & info)
+
+Quick Commands
+==============
+Install:      npm install
+Dev Server:   npm run dev
+Build:        npm run build
+Production:   npm start
+Lint:         npm run lint
+
+Deployment Options
+==================
+✓ Vercel (Recommended - 1-click deploy)
+✓ Netlify
+✓ GitHub Pages (static export)
+✓ Your own server (Docker, PM2, etc.)
+
+Next Steps
+==========
+1. Run: npm install
+2. Run: npm run dev
+3. Customize content (see CUSTOMIZATION_GUIDE.md)
+4. Deploy to Vercel (see DEPLOYMENT.md)
+5. Share your portfolio with the world! 🚀

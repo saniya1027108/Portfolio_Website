@@ -1,0 +1,64 @@
+========================================
+  QUICK GUIDE: Add Your Project Images
+========================================
+
+STEP 1: Copy Your Images from Desktop
+--------------------------------------
+
+Open Terminal and run these commands (one at a time):
+
+# Example: Copy an image from Desktop and rename it
+cp ~/Desktop/your-donna-ai-image.jpg ~/Desktop/portfolio_website/public/projects/project1.jpg
+cp ~/Desktop/your-analytics-image.png ~/Desktop/portfolio_website/public/projects/project2.png
+cp ~/Desktop/your-social-image.jpg ~/Desktop/portfolio_website/public/projects/project3.jpg
+
+Replace "your-donna-ai-image.jpg" with your actual filename!
+
+
+OR Using Finder (Easier for most people):
+------------------------------------------
+
+1. Open TWO Finder windows:
+   - Window 1: Your Desktop (where your images are)
+   - Window 2: Navigate to Desktop/portfolio_website/public/projects/
+
+2. Drag and drop your images into the projects folder
+
+3. Rename them to:
+   project1.jpg (for Donna AI)
+   project2.jpg (for Analytics Dashboard)
+   project3.jpg (etc.)
+
+
+STEP 2: Images Will Show Automatically!
+----------------------------------------
+
+✅ Code is already updated to use local images
+✅ Just refresh your browser: http://localhost:3000
+✅ Your images should appear in the Projects section!
+
+
+IMAGE REQUIREMENTS:
+-------------------
+- Format: JPG or PNG
+- Size: Around 800x500 pixels (recommended)
+- Keep under 500KB for fast loading
+
+
+CURRENT SETUP:
+--------------
+Your Projects.tsx now expects these images:
+
+Project 1 (Donna AI)          → /projects/project1.jpg
+Project 2 (Analytics)         → /projects/project2.jpg  
+Project 3 (Social Media)      → /projects/project3.jpg
+Project 4 (Task Management)   → /projects/project4.jpg
+Project 5 (IoT Monitoring)    → /projects/project5.jpg
+Project 6 (Weather App)       → /projects/project6.jpg
+
+
+NEED HELP?
+----------
+See: HOW_TO_ADD_PROJECT_IMAGES.md (full detailed guide)
+
+========================================
