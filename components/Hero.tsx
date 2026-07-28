@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { ArrowDown, Github, Linkedin, Mail, FileText } from 'lucide-react';
 
 const Hero = () => {
@@ -15,6 +16,24 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
+          {/* Profile Picture */}
+          <motion.div
+            className="mb-8 flex justify-center"
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
+            <div className="relative w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56">
+              <Image
+                src="/images/profile.jpeg"
+                alt="Saniya Mulla"
+                fill
+                className="rounded-full object-cover border-4 border-white dark:border-slate-800 shadow-2xl"
+                priority
+              />
+            </div>
+          </motion.div>
+
           <motion.h1
             className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6"
             initial={{ opacity: 0, y: 20 }}
