@@ -91,7 +91,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision
           </p>
         </motion.div>
 

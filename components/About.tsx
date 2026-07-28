@@ -49,7 +49,7 @@ const About = () => {
             About Me
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            I'm a passionate technologist with a strong background in AI/ML and research, along with CS Fundamentals.
+            I&apos;m a passionate technologist with a strong background in AI/ML and research, along with CS Fundamentals.
             I love building products that make a difference and exploring new frontiers in technology.
           </p>
         </motion.div>

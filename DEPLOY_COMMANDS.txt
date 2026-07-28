@@ -1,0 +1,42 @@
+===============================================
+  COPY AND RUN THESE COMMANDS TO DEPLOY
+===============================================
+
+STEP 1: Push to GitHub
+-----------------------
+
+Replace YOUR_USERNAME with your GitHub username, then run:
+
+git remote add origin https://github.com/YOUR_USERNAME/portfolio-website.git
+git push -u origin main
+
+Example:
+git remote add origin https://github.com/saniyamulla/portfolio-website.git
+git push -u origin main
+
+
+STEP 2: Deploy to Vercel
+-------------------------
+
+1. Go to: https://vercel.com/signup
+2. Click "Continue with GitHub"
+3. Click "Add New..." → "Project"
+4. Select "portfolio-website" repository
+5. Click "Deploy"
+6. Wait 2-3 minutes
+7. Done! Your site is live! 🎉
+
+
+Future Updates (After Initial Deploy)
+--------------------------------------
+
+When you make changes to your website:
+
+git add .
+git commit -m "Update: describe your changes"
+git push
+
+Vercel will automatically redeploy!
+
+
+===============================================

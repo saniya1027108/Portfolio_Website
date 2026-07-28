@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import Image from 'next/image';
 import { Github, Sparkles } from 'lucide-react';
 
 const Projects = () => {
@@ -99,10 +100,11 @@ const Projects = () => {
               )}
 
               <div className="relative h-48 overflow-hidden bg-slate-100 dark:bg-slate-700">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
                 />
               </div>
 
