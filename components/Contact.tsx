@@ -166,7 +166,7 @@ const Contact = () => {
                   htmlFor="name"
                   className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2"
                 >
-                  Your Name
+                  Your Name  
                 </label>
                 <input
                   type="text"
